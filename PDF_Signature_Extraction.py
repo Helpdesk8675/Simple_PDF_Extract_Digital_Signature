@@ -10,6 +10,32 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.x509.oid import NameOID
 from cryptography.hazmat.primitives.serialization import pkcs7
 
+# PDF Certificate Extractor
+# ------------------------
+# A GUI application that extracts digital certificate information from signed PDF files
+# and exports the data to CSV format.
+
+# Created by: helpdesk8675
+
+# Features:
+# - GUI interface for selecting input/output folders
+# - Processes multiple PDF files in batch
+# - Extracts digital signature and certificate information
+# - Exports certificate data to CSV format
+# - Progress tracking and status updates
+# - Error handling and user feedback
+
+# Requirements:
+# - Python 3.x
+# - tkinter
+# - PyPDF2
+# - cryptography
+
+# Usage:
+# 1. Select input folder containing signed PDF files
+# 2. Choose output folder for CSV export
+# 3. Click "Process Files" to begin extraction
+# 4. Results will be saved as 'pdf_signatures_[timestamp].csv'
 
 def browse_input_button():
     global input_folder_path
