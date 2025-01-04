@@ -1,0 +1,4 @@
+asn1crypto==1.5.1
+pypdf==3.17.1
+python-dateutil==2.8.2
+six==1.16.0  # Required by python-dateutil
